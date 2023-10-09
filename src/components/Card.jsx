@@ -2,7 +2,7 @@
 function Card(dato) {
     return (
         <div>
-            {dato}
+            {dato} 
         </div>
     )
 }
