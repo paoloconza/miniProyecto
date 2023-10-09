@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif; /* Fuente principal */
+    font-family: 'Mulish', sans-serif; /* Fuente secundaria */
+}
+.contenedor{
+    padding: 20px 32px;
+}
+#root{
+    min-width: 100vh;
+    /* display: flex; */
+    justify-content: center;
+}
+Nav{
+    justify-content: center;
+    align-items: center;
+}
+#busqueda{
+    display: flex;  
+
+}
+
+main{
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.grup{
+    height: 275px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.imag{
+    border: none;
+    border-radius: 10px;
+    height: 75%;
+    width: 100%;
+    overflow: hidden;
+}
+.imag > img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+text{
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.divblo, .divdat{
+    display: flex;
+    align-items: center;
+    margin: 6px 0;
+    font-size: 10px;
+    justify-content: space-between;
+}
+.divblo > p > svg{
+    margin-right: 12px;
+}
+.divdat > p > p > strong{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 8px 12px;
+    margin-right: 12px;
+    font-size: 9px;
+    font-weight: bold;
+}
+
+.divdat > p > strong{
+    color: darkgray;
+}
